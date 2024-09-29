@@ -7,17 +7,20 @@ body {
     margin: 0;
 }
 
+/* Header/logo Title */
 .quote {
-    padding: 30px;
+    padding: 60px;
     text-align: center;
     background: black;
     color: white;
 }
 
+/* Column container */
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .side {
     flex: 50%;
@@ -37,6 +40,8 @@ body {
     padding: 20px;
 }
 
+
+/* Footer */
 .footer {
     padding: 20px;
     text-align: center;
@@ -46,6 +51,7 @@ body {
 .side_images {
     height: 250px;
     border-radius: 10px;
+    justify-content: center;
 }
 .author_image {
     height: 500px;
